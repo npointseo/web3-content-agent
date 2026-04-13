@@ -1,0 +1,10 @@
+{
+  "brandName": "Web3 Daily",
+  "primaryColor": "#6C5CE7",
+  "secondaryColor": "#2D3436",
+  "backgroundColor": "#F9F9F9",
+  "textColor": "#2D3436",
+  "fontFamily": "'Space Grotesk', sans-serif",
+  "googleFontUrl": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg"
+}
