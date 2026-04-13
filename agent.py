@@ -22,7 +22,7 @@ def generate_blog(topic: str) -> str:
         
     prompt = f"Write a comprehensive, engaging, SEO-optimized blog post about the Web3/Crypto topic: {topic}. Use professional but accessible language. Keep it between 500-800 words, using Markdown formatting."
     response = client.models.generate_content(
-        model='gemini-1.5-flash',
+        model='gemini-2.0-flash',
         contents=prompt,
     )
     return response.text
@@ -41,7 +41,7 @@ Blog Post:
 {blog_text}
 """
     response = client.models.generate_content(
-        model='gemini-1.5-flash',
+        model='gemini-2.0-flash',
         contents=prompt,
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
